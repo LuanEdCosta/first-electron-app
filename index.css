@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --background: #333333;
+  --backgroundDarker: #222222;
+  --primaryText: #e2e2e2;
+  --accent: #54b0fc;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--accent);
+  font-weight: bold;
+  margin: 0;
+  padding: 24px 32px;
+  margin: 16px;
+  border-radius: 10px;
+  display: inline-block;
+  background: var(--backgroundDarker);
+}
+
+.action {
+  outline: none;
+  border: none;
+  padding: 12px 24px;
+  background: var(--accent);
+  color: white;
+  border-radius: 10px;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.action:hover {
+  background: white;
+  color: var(--accent);
+}
