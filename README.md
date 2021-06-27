@@ -19,3 +19,7 @@ I'll try to use React with Electron because i'm familiar with ReactJs and React 
 - Vanilla JavaScript
 - HTML
 - CSS
+
+## :man: Author
+
+Luan Eduardo da Costa | [Follow me on Linkedin](https://www.linkedin.com/in/luaneducosta/)
